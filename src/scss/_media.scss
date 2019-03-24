@@ -3,17 +3,28 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 
+    // <!-- service start -->
+    .service {
+        .service-item {
+            margin-top: 35px;
+        }
+    }
+
+    // <!-- service end -->
+
     // <!-- simple start -->
     .simple {
         .simple-content {
-            h1{
+            h1 {
                 font-size: 35px;
             }
-            p{
+
+            p {
                 font-size: 18px;
             }
         }
     }
+
     // <!-- simple end -->
 
     // banner start
@@ -68,17 +79,29 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-      // <!-- simple start -->
-      .simple {
+    // <!-- service start -->
+    .service {
+        .service-item {
+            margin-top: 35px;
+        }
+    }
+
+    // <!-- service end -->
+
+
+    // <!-- simple start -->
+    .simple {
         .simple-content {
-            h1{
+            h1 {
                 font-size: 38px;
             }
-            p{
+
+            p {
                 font-size: 19px;
             }
         }
     }
+
     // <!-- simple end -->
 
 
