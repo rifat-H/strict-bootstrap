@@ -79,9 +79,24 @@ header {
             font-size: 18px;
             color: #ffffff;
             transition: all linear .3s;
+            margin-bottom: 178px;
 
             &:hover {
                 background-color: $blue;
+            }
+        }
+
+        .arrow {
+            svg {
+                font-size: 35px;
+                letter-spacing: 1px;
+                line-height: 47px;
+                color: #ffffff;
+                transition: all linear .3s;
+
+                &:hover {
+                    color: #000;
+                }
             }
         }
     }
