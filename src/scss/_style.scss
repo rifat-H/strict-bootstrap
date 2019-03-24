@@ -174,11 +174,47 @@ header {
             font-size: 15px;
             line-height: 23px;
             color: $grey2;
-            margin-bottom: 80px;
+            margin-bottom: 74px;
         }
     }
 
-    .portfolio-gallery {}
+    .portfolio-gallery {
+        position: relative;
+
+        .overlay {
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            background-color: #15a2facc;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            transition: all linear .3s;
+            align-items: center;
+
+            a {
+                border-radius: 10%;
+                padding: 15px;
+                border: 1px solid white;
+                font-size: 15px;
+                color: #ffffff;
+                margin: 0 5px;
+
+                &:hover {
+                    background-color: #fff;
+                    color: $blue;
+                }
+            }
+        }
+
+        &:hover {
+            .overlay {
+                opacity: 1;
+                // height: 100%;
+            }
+        }
+    }
 }
 
 // <!-- portfolio end -->
