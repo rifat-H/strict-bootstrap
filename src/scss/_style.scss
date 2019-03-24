@@ -13,7 +13,20 @@ body {
 // common css end
 
 // header start
-header {}
+.nav-link {
+    padding-left: 47px !important;
+    font-size: 20px !important;
+    line-height: 44px !important;
+    color: #222222 !important;
+}
+
+header {
+    background-color: #f6f9f9;
+
+    nav {
+        padding: 35px 0 !important;
+    }
+}
 
 // header end
 
