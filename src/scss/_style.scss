@@ -326,9 +326,14 @@ footer {
         color: #999999;
     }
 
-    ul{
-        li{
-            a{
+    .social {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul {
+        li {
+            a {
                 background-color: #15a4fa;
                 color: #fff;
                 font-size: 15px;

@@ -3,11 +3,35 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 
+
+    // footer start
+    footer {
+        p {
+            text-align: center;
+        }
+
+        .social {
+            display: flex;
+            justify-content: center;
+        }
+
+        ul {
+            margin-top: 40px;
+
+            li {
+                a {}
+            }
+        }
+    }
+
+    // footer end
+
+
     // <!-- contact start -->
     .contact {
         .contact-content {
-            .res{
-                text-align: center !important; 
+            .res {
+                text-align: center !important;
                 margin-bottom: 30px;
             }
         }
@@ -90,6 +114,40 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    // footer start
+    footer {
+        p {
+            text-align: center;
+        }
+
+        .social {
+            display: flex;
+            justify-content: center;
+        }
+
+        ul {
+            margin-top: 40px;
+
+            li {
+                a {}
+            }
+        }
+    }
+
+    // footer end
+
+    // <!-- contact start -->
+    .contact {
+        .contact-content {
+            .res {
+                text-align: center !important;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    // <!-- contact end -->
 
     // <!-- service start -->
     .service {
