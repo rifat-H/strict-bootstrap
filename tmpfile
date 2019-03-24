@@ -1,12 +1,30 @@
+build dist
+test site for optimaization
+optimize images
+==============================
+put variables in a different folder
+w3c validate
+validate whatwg
+add hover effect
+always comment
+check responsiveness
+do sections sections
+create mixins media query
+create mixins
+media query sizes
+get sizes
+get pattern
+devide all section
+trim images
+get fontawesome icons
+get fonts
+
+
+
 fonts
 ==============
 
 
 icons
 ==============
-<i class="fas fa-search-plus"></i>
-<i class="fas fa-link"></i>
-<i class="fab fa-facebook-f"></i>
-<i class="fab fa-twitter"></i>
-<i class="fab fa-google-plus-g"></i>
-<i class="fab fa-instagram"></i>
+
