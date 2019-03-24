@@ -2,6 +2,88 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+
+    // banner start
+    .banner {
+        padding-top: 90px;
+        padding-bottom: 70px;
+
+        .banner-content {
+            h1 {
+                font-size: 70px;
+            }
+
+            hr {
+                width: 280px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            button {
+                padding: 15px 27px;
+                margin-bottom: 135px;
+            }
+        }
+    }
+
+    // banner end
+
+    // header start
+
+    header {
+        nav {
+            .navbar-nav {
+                margin-top: 20px !important;
+
+                li {
+                    margin: 0 auto;
+
+                    a {
+                        padding-left: 0 !important;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    // header end
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    // banner start
+    .banner {
+        padding-top: 120px;
+        padding-bottom: 80px;
+
+        .banner-content {
+            h1 {
+                font-size: 90px;
+            }
+
+            hr {
+                width: 500px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            button {
+                padding: 15px 27px;
+                margin-bottom: 135px;
+            }
+        }
+    }
+
+    // banner end
+
+
     // header start
 
     header {
@@ -23,50 +105,27 @@
     // header end
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {
-        // header start
-
-        header {
-            nav {
-                .navbar-nav {
-                    margin-top: 20px !important;
-    
-                    li {
-                        margin: 0 auto;
-    
-                        a {
-                            padding-left: 0 !important;
-                        }
-                    }
-                }
-            }
-        }
-    
-        // header end
-}
-
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
-        // header start
+    // header start
 
-        header {
-            nav {
-                .navbar-nav {
-                    margin-top: 20px !important;
-    
-                    li {
-                        margin: 0 auto;
-    
-                        a {
-                            padding-left: 0 !important;
-                        }
+    header {
+        nav {
+            .navbar-nav {
+                margin-top: 20px !important;
+
+                li {
+                    margin: 0 auto;
+
+                    a {
+                        padding-left: 0 !important;
                     }
                 }
             }
         }
-    
-        // header end
+    }
+
+    // header end
 }
 
 // Large devices (desktops, 992px and up)
