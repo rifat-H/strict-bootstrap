@@ -4,7 +4,7 @@
   "description": "bootstrap template with parcel",
   "main": "none",
   "scripts": {
-    "dev": "parcel ./src/index.html --open -d dev",
+    "dev": "parcel ./src/index.html --open -d ./dev ",
     "build": "parcel build ./src/index.html -d dist --public-url ./",
     "clean": "rimraf .cache dist dev"
   },
