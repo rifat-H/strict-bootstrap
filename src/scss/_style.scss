@@ -157,7 +157,29 @@ header {
 // <!-- service end -->
 
 // <!-- portfolio start -->
-.portfolio {}
+.portfolio {
+    padding-top: 80px;
+    padding-bottom: 115px;
+    background-color: #f6f9f9;
+
+    .portfolio-head {
+        h1 {
+            font-size: 41px;
+            letter-spacing: 1px;
+            color: $headColor;
+            margin-bottom: 22px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 23px;
+            color: $grey2;
+            margin-bottom: 80px;
+        }
+    }
+
+    .portfolio-gallery {}
+}
 
 // <!-- portfolio end -->
 
