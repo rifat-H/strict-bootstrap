@@ -3,6 +3,19 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
 
+    // <!-- simple start -->
+    .simple {
+        .simple-content {
+            h1{
+                font-size: 35px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+    // <!-- simple end -->
+
     // banner start
     .banner {
         padding-top: 90px;
@@ -54,6 +67,20 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+      // <!-- simple start -->
+      .simple {
+        .simple-content {
+            h1{
+                font-size: 38px;
+            }
+            p{
+                font-size: 19px;
+            }
+        }
+    }
+    // <!-- simple end -->
+
 
 
     // banner start
