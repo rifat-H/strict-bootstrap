@@ -317,6 +317,26 @@ header {
 // <!-- contact end -->
 
 // footer start
-footer {}
+footer {
+    padding: 38px;
+    background-color: #f6f9f9;
+
+    p {
+        font-size: 15px;
+        color: #999999;
+    }
+
+    ul{
+        li{
+            a{
+                background-color: #15a4fa;
+                color: #fff;
+                font-size: 15px;
+                padding: 12px 15px;
+                border-radius: 3px;
+            }
+        }
+    }
+}
 
 // footer end
