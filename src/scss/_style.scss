@@ -10,6 +10,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.mt-30 {
+    margin-top: 30px;
+}
+
+
 // common css end
 
 // header start
@@ -45,6 +50,7 @@ header {
     padding-bottom: 90px;
     background: url(../images/banner.png);
     background-attachment: fixed;
+    background-repeat: no-repeat;
 
     .banner-content {
         h1 {
@@ -96,6 +102,7 @@ header {
 
                 &:hover {
                     color: #000;
+                    cursor: pointer;
                 }
             }
         }
@@ -220,7 +227,92 @@ header {
 // <!-- portfolio end -->
 
 // <!-- contact start -->
-.contact {}
+.contact {
+    padding-top: 72px;
+    padding-bottom: 110px;
+    background: url(../images/contact-background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    .contact-content {
+        h1 {
+            font-size: 41px;
+            letter-spacing: 1px;
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 23px;
+            color: #999999;
+            margin-top: 23px;
+            margin-bottom: 50px;
+        }
+
+
+
+        input[type=email],
+        input[type=text] {
+            width: 100%;
+            border: none;
+            border: 1px solid #999999;
+            background: transparent;
+            padding: 25px 0;
+            border-radius: 2px;
+            margin: 10px 0;
+            padding-left: 20px;
+
+            &:focus {
+                border-color: $blue;
+            }
+        }
+
+        textarea {
+            width: 100%;
+            height: 160px;
+            border: none;
+            border: 1px solid #999999;
+            background: transparent;
+            border-radius: 2px;
+            margin: 10px 0;
+            padding-left: 20px;
+            padding-top: 25px;
+            resize: none;
+
+            &:focus {
+                border-color: $blue;
+            }
+        }
+
+        input[type=checkbox] {
+            width: 15px;
+            height: 15px;
+            border: none;
+            // border-radius: 2px;
+            // background-color: rgba(246, 249, 249, 0.5411764705882353) !important;
+            // border: 1px solid #9aa1ab !important;
+        }
+
+        span {
+            font-size: 15px;
+            color: #ffffff;
+        }
+
+        input[type=submit] {
+            margin-top: 15px;
+            padding: 15px 50px;
+            border: 1px solid $blue;
+            background: transparent;
+            font-size: 18px;
+            color: #ffffff;
+            transition: all linear .3s;
+
+            &:hover {
+                background-color: $blue;
+            }
+        }
+    }
+}
 
 // <!-- contact end -->
 
