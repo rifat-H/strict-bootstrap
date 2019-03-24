@@ -40,7 +40,52 @@ header {
 
 
 // <!-- banner start  -->
-.banner {}
+.banner {
+    padding-top: 215px;
+    padding-bottom: 90px;
+    background: url(../images/banner.png);
+    background-attachment: fixed;
+
+    .banner-content {
+        h1 {
+            font-size: 120px;
+            letter-spacing: 3px;
+            line-height: 47px;
+            color: #ffffff;
+            font-weight: 700;
+
+        }
+
+        hr {
+            width: 600px;
+            height: 2px;
+            background-color: #15a4fa;
+            margin-top: 45px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-size: 20px;
+            letter-spacing: 1px;
+            line-height: 47px;
+            color: #ffffff;
+            margin-bottom: 44px;
+        }
+
+        button {
+            padding: 20px 35px;
+            border: 1px solid $blue;
+            background: transparent;
+            font-size: 18px;
+            color: #ffffff;
+            transition: all linear .3s;
+
+            &:hover {
+                background-color: $blue;
+            }
+        }
+    }
+}
 
 // <!-- banner end -->
 
