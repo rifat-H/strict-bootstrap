@@ -8,6 +8,9 @@ body {
     margin-top: 30px;
 }
 
+.navbar-light .navbar-nav .nav-link.active {
+    color: $blue !important;
+}
 
 // common css end
 
@@ -15,6 +18,7 @@ body {
 
 
 header {
+    
     background-color: #f6f9f9;
 
     nav {

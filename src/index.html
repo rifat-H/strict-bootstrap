@@ -20,10 +20,10 @@
     <title>strict psd-> bootstrap</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="150">
 
     <!-- header start -->
-    <header>
+    <header class="sticky-top" id="header">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#">
@@ -37,20 +37,20 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#banner">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#simple">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
+                            <a class="nav-link" href="#service">Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mr-0" href="#">Contact</a>
+                            <a class="nav-link mr-0" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -60,7 +60,7 @@
     <!-- header end -->
 
     <!-- banner start  -->
-    <section class="banner">
+    <section class="banner" id="banner">
         <div class="container">
             <div class="banner-content text-center">
                 <h1>STRICT</h1>
@@ -76,7 +76,7 @@
     <!-- banner end -->
 
     <!-- simple start -->
-    <section class="simple">
+    <section class="simple" id="simple">
         <div class="container">
             <div class="simple-content text-center">
                 <h1>Simple & pure design.</h1>
@@ -90,7 +90,7 @@
     <!-- simple end -->
 
     <!-- service start -->
-    <section class="service">
+    <section class="service" id="service">
         <div class="container">
             <div class="row">
                 <!-- one service start -->
@@ -129,7 +129,7 @@
     <!-- service end -->
 
     <!-- portfolio start -->
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <div class="portfolio-head text-center">
                 <h1>Showcase your work like a pro.</h1>
@@ -232,7 +232,7 @@
     <!-- portfolio end -->
 
     <!-- contact start -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
@@ -262,7 +262,7 @@
     <!-- contact end -->
 
     <!-- footer start -->
-    <footer>
+    <footer id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -299,6 +299,20 @@
 
     <!-- all -->
     <script src="js/script.js"></script>
+
+    <script>
+        $('.nav-link').on('click', (e) => {
+            let href = $(e.currentTarget).attr('href');
+
+            $('html, body').animate({
+                scrollTop: $(href).offset().top - 120
+            }, '1500');
+
+            e.preventDefault();
+        });
+
+
+    </script>
 </body>
 
 </html>
